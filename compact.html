@@ -3,38 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Compact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    h1{
-        margin-left:100px;
-        font-family:'Times New Roman', Times, serif;
-        font-size:60px;
-    }
-    img{
-        margin-top:100px;
-        margin-left: 80px;
-        position: absolute;
-        width:50%;
-        height:50%;
-    }
-    button{
-        display:inline-block;
-        padding:0.3em 1.2em;
-        border-radius:12px;
-        font-size:24px;
-        text-decoration:none;
-        font-family:'Roboto',sans-serif;
-        font-weight:300;
-        color:white;
-        background-color: #008CBA;
-        text-align:center;
-        transition: all 0.2s;
-        margin-left:100px;
-    }
-</style>
 <body>
     <h1>Districts redrawn to optimize compactness</h1>
-    <img src="compact.JPG" alt="Districts redrawn to optimize compactness">
+    <div class="tooltip">
+        <img src="compact.JPG" alt="Districts redrawn to optimize compactness">
+        <span class="tooltiptext">District borders are not smooth due to geographic limitations of compactness</span>
+    </div>
     <a href="current.html"><button>Back</button></a>
 </body>
+<footer>
+    <p>SOURCE: Brian Olson</p>
+</footer>
 </html>
